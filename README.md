@@ -20,6 +20,6 @@
 - [Website] URL: https://kk6625.github.io/My-First-Blog/
 - [Solution] URL: https://github.com/kk6625/My-First-Blog
 
-## AUthor
+## Author
 - Made by Andy Choi
 
