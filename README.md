@@ -12,8 +12,8 @@
 - Need to create a respondsive design for users.
 
 ### Screenshoot
-![Screenshot](/assets/images/Module%204%20SS%201.JPG)
-![Screenshoot2](/assets/images/Module%204%20SS%202.JPG)
+![Screenshot](/images/Module%204%20SS%201.JPG)
+![Screenshoot2](/images/Module%204%20SS%202.JPG)
 
 
 ## Link
