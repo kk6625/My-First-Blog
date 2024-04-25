@@ -1,0 +1,134 @@
+/* blog.css */
+
+/* Header styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Toggle button styles */
+.toggle-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: .4s;
+    border-radius: 34px;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    transition: .4s;
+    border-radius: 50%;
+}
+
+input:checked + .slider {
+    background-color: #007bff;
+}
+
+input:checked + .slider:before {
+    transform: translateX(26px); /* moves the element 26px to the right */
+}
+
+.slider.round {
+    border-radius: 34px;
+}
+
+#modeText {
+    margin-left: 10px;
+}
+
+/* Container for blog posts */
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+/* Style for individual blog posts */
+.post {
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.post h2 {
+    margin-top: 0;
+}
+
+.post p {
+    margin-bottom: 10px;
+}
+
+.post-details {
+    color: #333;
+    font-size: 14px;
+}
+
+/* Style for post title */
+.post-title {
+    cursor: pointer;
+    color: #333;
+}
+
+.post-title:hover {
+    text-decoration: underline;
+}
+
+/* Back button styles */
+button#backButton {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+button#backButton:hover {
+    background-color: #0056b3;
+}
+
+/* Footer styles */
+footer {
+    
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Blog - Posts</title>
+    <link rel="stylesheet" href="/css/blog.css">
+</head>
+<body>
+
+    <header>
+        <h1>My Personal Blog</h1>
+        <div class="toggle-container">
+            <label class="switch">
+                <input type="checkbox" id="toggleMode">
+                <span class="slider round"></span>
+            </label>
+            <span id="modeText">Light Mode</span>
+        </div>
+    </header>
+
+    <div class="container">
+        <button id="backButton">Back</button>
+        
+    </div>
+
+    <div class="container">
+        <div id="postsContainer"></div>
+        <div id="individualPostContainer" style="display: none;"></div>
+    </div>
+
+    <footer>
+        <a href="#">Made by Andy Choi</a>
+    </footer>
+
+    <script src="/js/blog.js"></script>
+</body>
+</html>
